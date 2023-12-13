@@ -36,7 +36,7 @@ jobs:
       outputs:
       - name: image
       params:
-        CONTEXT: source-code/frontend
+        CONTEXT: source-code
       run:
         path: build
   - put: jfrog-docker
